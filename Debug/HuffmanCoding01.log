@@ -1,0 +1,21 @@
+﻿Build started 2/21/2016 9:40:04 PM.
+     1>Project "C:\Users\AlbertusK95\Downloads\huffmanCODErevision\HuffmanCoding01.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\\" /AI"C:\Program Files (x86)\Windows Kits\8.1\References\CommonConfiguration\Neutral" /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\Facades\\" /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\mscorlib.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Drawing.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Windows.Forms.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Xml.dll" /analyze- /errorReport:prompt /clr:nostdlib BinTree.cpp FileCompressor.cpp
+         BinTree.cpp
+         FileCompressor.cpp
+     1>FileCompressor.cpp(184): warning C4018: '<' : signed/unsigned mismatch
+     1>FileCompressor.cpp(279): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>FileCompressor.cpp(280): warning C4244: '=' : conversion from 'double' to 'long', possible loss of data
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\AlbertusK95\Downloads\huffmanCODErevision\Debug\HuffmanCoding01.exe" /INCREMENTAL /NOLOGO /ASSEMBLYRESOURCE:Debug\HuffmanCoding01.MyForm.resources /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\AlbertusK95\Downloads\huffmanCODErevision\Debug\HuffmanCoding01.pdb" /ASSEMBLYDEBUG /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"main" /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 Debug\BinTree.obj
+         Debug\FileCompressor.obj
+         Debug\MyForm.obj
+         "Debug\.NETFramework,Version=v4.5.AssemblyAttributes.obj"
+         HuffmanCoding01.vcxproj -> C:\Users\AlbertusK95\Downloads\huffmanCODErevision\Debug\HuffmanCoding01.exe
+     1>Done Building Project "C:\Users\AlbertusK95\Downloads\huffmanCODErevision\HuffmanCoding01.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:20.63
